@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Архитектура & Путешествия</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Заголовок -->
+    <header class="header">
+        <h1>Иван Иванов</h1>
+        <p>Архитектор и исследователь городов</p>
+    </header>
+
+    <!-- Основная сетка -->
+    <div class="grid">
+        <!-- Портфолио (главная картинка) -->
+        <a href="portfolio.html" class="card portfolio-card">
+            <img src="portfolio-cover.jpg" alt="Мое портфолио">
+            <div class="card-overlay">
+                <h2>Проекты</h2>
+                <p>Архитектурные работы</p>
+            </div>
+        </a>
+
+        <!-- Карточки городов -->
+        <a href="paris.html" class="card city-card">
+            <img src="paris.jpg" alt="Париж">
+            <div class="card-overlay">
+                <h2>Париж</h2>
+                <p>Секреты архитектуры</p>
+            </div>
+        </a>
+
+        <a href="kyoto.html" class="card city-card">
+            <img src="kyoto.jpg" alt="Киото">
+            <div class="card-overlay">
+                <h2>Киото</h2>
+                <p>Традиции и современность</p>
+            </div>
+        </a>
+
+        <!-- Добавь другие города -->
+    </div>
+</body>
+</html>
