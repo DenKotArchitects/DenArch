@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рим — Архитектура и история</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Кнопка "Назад" -->
+    <a href="index.html" class="back-button">← На главную</a>
+
+    <!-- Контент статьи -->
+    <article class="city-article">
+        <h1>Рим</h1>
+        <img src="images/rome-main.jpg" alt="Колизей" class="city-main-image">
+        
+        <div class="city-content">
+            <h2>Исторические памятники</h2>
+            <p>Текст о Колизее, Пантеоне, римском форуме...</p>
+            
+            <h2>Советы туристам</h2>
+            <ul>
+                <li>Лучшее время для посещения: весна</li>
+                <li>Обязательно попробуйте: паста карбонара</li>
+            </ul>
+            
+            <!-- Карта -->
+            <div class="city-map">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190190.6793258287!2d12.3959154!3d41.9102415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6196f9928ebb%3A0xb90f770693656e38!2z0KDQuNC8!5e0!3m2!1sru!2sru!4v1717681929624!5m2!1sru!2sru" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </article>
+</body>
+</html>
