@@ -26,7 +26,7 @@
 
         <!-- Карточки городов -->
         <a href="paris.html" class="card city-card">
-            <img src="K:\SitePortfolio\DenArch\images\Pskov" alt="Псков">
+            <img src="images\Pskov.jpg" alt="Псков">
             <div class="card-overlay">
                 <h2>Псков</h2>
                 <p>Секреты архитектуры</p>
