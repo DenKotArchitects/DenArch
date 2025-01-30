@@ -1,6 +1,35 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <style>
+        /* Стили для круглого контейнера */
+        .profile-circle {
+            width: 150px;         /* Размер круга */
+            height: 150px;
+            border-radius: 50%;   /* Делаем круг */
+            overflow: hidden;     /* Обрезаем всё за пределами круга */
+            margin: 20px;         /* Отступы вокруг */
+            border: 3px solid #fff; /* Рамка (необязательно) */
+            box-shadow: 0 0 10px rgba(0,0,0,0.3); /* Тень (необязательно) */
+        }
+
+        /* Стили для изображения внутри круга */
+        .profile-circle img {
+            width: 100%;          /* Заполняем контейнер */
+            height: 100%;
+            object-fit: cover;    /* Обрезаем изображение по размеру контейнера */
+        }
+    </style>
+</head>
+<body>
+    <!-- Контейнер с аватаром -->
+    <div class="profile-circle">
+        <!-- Замени 'my-photo.jpg' на путь к своей фотографии -->
+        <img src="ImagesPortfolio/photo.jpg" alt="Мой профиль">
+    </div>
+</body>
+</html>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Архитектура & Путешествия</title>
@@ -9,7 +38,7 @@
 <body>
     <!-- Заголовок -->
     <header class="header">
-        <h1>Котекно Денис</h1>
+        <h1>Котенко Денис</h1>
         <p>Архитектор</p>
     </header>
 
